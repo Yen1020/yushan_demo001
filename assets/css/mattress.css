@@ -1,0 +1,107 @@
+/*
+ * Components
+ * Copyright 2023
+ * Author
+ * Licensed
+ */
+
+ /*-----------------------------*\
+	Content
+\*------------------------------*/
+/**
+ * Content .......... You are reading it
+ * mattress
+ **/
+
+ /*-----------------------------*\
+    mattress
+\*------------------------------*/
+/* top-image */
+.top-img-container{
+    width: 100%;
+    padding-top: 330px;
+}
+.top-img-container:before{
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 40%;
+}
+.top-img{
+    width: 100%;
+    height: 100%;
+
+    background-size: contain;
+    background-position: center;    
+    background-repeat: no-repeat;
+
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+/* product-card */
+.product-card-img-container{
+    width: 100%;
+    aspect-ratio: 4/3;
+    margin-bottom: 24px;
+}
+.product-card-img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+	object-position: center center;
+
+}
+.mattress__des{
+    list-style: disc;
+    color:#003e80;
+    line-height: 1.25;
+    padding-left: 25px;
+}
+.mattress__list{
+    padding-bottom: 10px;
+}
+.mattress__title{}
+.mattress__para{
+    color: #000;
+}
+
+/* mattress product */
+.image-main-container{
+    width: 100%;
+	aspect-ratio: 6/4;
+    margin-bottom: 24px;
+}
+.image-main{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+	object-position: center center;
+}
+.img-sm-outter{
+    display: flex;
+    width: 100%;
+    padding: 0 2.5%;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.img-sm{
+    width: 100%;
+}
+.box-margin{
+    padding: 50px 0;
+}
+
+/* bottom image */
+.bottom-img{
+    width: 100%;
+    height: 5%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 50px 0;
+}

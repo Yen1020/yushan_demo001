@@ -1,0 +1,180 @@
+/*
+ * Components
+ * Copyright 2023
+ * Author
+ * Licensed
+ */
+
+/*------------------------------*\
+	Content
+\*------------------------------*/
+/**
+ * Content .......... You are reading it
+ * Buttons
+ * Navigaiton
+ * Jumbotron
+ * Announcement
+ * Cards
+ * Footer
+ **/
+
+
+/*------------------------------*\
+	Button
+\*------------------------------*/
+.btn{
+	/* structure */
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	margin: 0 ;
+	height: 36px ;
+	line-height: 36px ;
+	padding: 0 32px ;
+
+	/* style */
+/*	border:1px solid #000;*/
+	font-size: 20px;
+	text-align: center;
+	font-weight: normal;
+	font-family: Arial,"思源黑體";
+	letter-spacing: 1px;
+	text-decoration: none;
+	color:#808080;
+	background-color: #ffffff;
+	border-radius: 5px;
+
+	/* interaction */
+	overflow: hidden;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+		-ms-user-select: none;
+		    user-select: none;
+	-webkit-user-drag:none;
+}
+.btn.btn--hover,.btn:hover{
+	color:#ffffff;
+	background-color: #ffc824;
+}
+.btn.btn--active,.btn:active{
+	color:#f6f6f6;
+	background-color: #dda500;	
+}
+
+/*------------------------------*\
+	Navigation
+\*------------------------------*/
+.navbar{
+	width: 100%;
+	top: 0;
+}
+/* nav */
+.nav{
+	display:inline-flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav__link{
+	display: block;
+	color: #808080;
+	font-size: 20px;
+	padding: 14px 28px;
+
+	white-space: nowrap;   /*第一行不換行*/
+	text-align: center;
+}
+.nav__link:hover,
+.nav__link .is-active{
+	color: #ffffff;
+	background-color: #ffc824;	
+}
+
+
+/* navbar */
+.navbar{
+	background-color: #ffffff;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11);
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.navbar .container{
+	display: flex;
+	justify-content: space-between;
+}
+.navbar__logo{
+	width: 180px;
+	height: 50px;
+
+	background-image: url("../images/logo.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	white-space: nowrap;   /*第一行不換行*/
+	text-indent: 100%;
+	overflow: hidden;
+}
+
+/* navModal */
+.nav-item{
+    border: 1px solid pink;
+    padding: 10px 20px;
+}
+
+/* menu toggle */
+.menu-toggle{
+	width: 50px	;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(0,-50%);
+	display: none;
+}
+
+.menu-toggle span{
+	display: block;
+	width: 30px;	
+	height: 3px;
+	background-color: #808080;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.menu-toggle span:nth-child(1){
+	top: 12px;
+}
+.menu-toggle span:nth-child(2){
+	top: 22px;
+}
+.menu-toggle span:nth-child(3){
+	top: 32px;
+}
+/* close button */
+.close-btn{
+	width: 50px	;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(0,-50%);
+	
+	display: none;
+}
+
+.close-btn span{
+	display: block;
+	width: 40px;	
+	height: 3px;
+	background-color: #808080;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.close-btn span:nth-child(1){
+	transform: translate(-50%,-50%) rotate(45deg);
+}
+.close-btn span:nth-child(2){
+	transform: translate(-50%,-50%) rotate(-45deg);
+}

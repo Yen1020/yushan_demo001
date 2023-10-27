@@ -1,0 +1,187 @@
+/*
+ * Page name
+ * Copyright 2023
+ * Author 
+ * Licensed
+ */
+/*--------------------*\
+	Content
+\*--------------------*/
+/**
+ * Content .......... You are reading it
+ * Globel .......... Set common styles
+ * Component ..........
+ * Utility ..........
+ **/
+
+/*--------------------*\
+	Globel
+\*--------------------*/
+
+*{
+	position: relative;
+	box-sizing: border-box;
+}
+html, body{
+    font-family: Arial,"思源黑體";
+}
+a{
+    color: #808080;
+    text-decoration: none;
+    outline: none;
+}
+/*heading style*/
+h1,h2,h3,h4,h5,h6,p,.h1,.h2,.h3,.h4,.h5,.h6,.para{
+    margin: 0;
+    padding: 0;
+}
+/*list style*/
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Background Color*/
+.bgc--default{background-color: #FFF}
+.bgc--primary{background-color: #ffc824}
+.bgc--secondary{background-color:#003e80}
+
+.bgc--black{background-color:#000}
+.bgc--dark-grey{background-color:#808080}
+.bgc--light-grey{background-color:#f6f6f6}
+.bgc--white{background-color:#FFF}
+
+
+/* Color */
+.color--default{color: #FFF}
+.color--primary{color: #ffc824}
+.color--secondary{color:#003e80}
+
+.color--black{color:#000}
+.color--dark-grey{color:#808080}
+.color--light-grey{color:#f6f6f6}
+.color--white{color:#FFF}
+
+/* Typograghy */
+h1,.h1{
+    font-family: Arial,"思源黑體";
+    font-size: 44px;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+h2,.h2{
+    font-family: Arial,"思源黑體";
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h3,.h3{
+    font-family: Arial,"思源黑體";
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+h4,.h4{
+    font-family: Arial,"思源黑體";
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+h5,.h5{
+    font-family: Arial,"思源黑體";
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+h6,.h6{
+    font-family: Arial,"思源黑體";
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+p,.para{
+    font-family: Arial,"思源黑體";
+    font-size: 20px;  
+}
+.para-sm{
+    font-family: Arial,"思源黑體";
+    font-size: 12px;
+}
+
+/*--------------------*\
+    Utility
+\*--------------------*/
+/*padding*/
+.u-padding-4{padding: 4px !important;}
+.u-padding-8{padding: 8px !important;}
+.u-padding-16{padding: 16px !important;}
+.u-padding-24{padding: 24px !important;}
+.u-padding-32{padding: 32px !important;}
+.u-padding-40{padding: 40px !important;}
+.u-padding-48{padding: 48px !important;}
+.u-pt-4{padding-top: 4px !important;}
+.u-pt-8{padding-top: 8px !important;}
+.u-pt-16{padding-top: 16px !important;}
+.u-pt-24{padding-top: 24px !important;}
+.u-pt-32{padding-top: 32px !important;}
+.u-pt-40{padding-top: 40px !important;}
+.u-pt-48{padding-top: 48px !important;}
+.u-pb-4{padding-bottom: 4px !important;}
+.u-pb-8{padding-bottom: 8px !important;}
+.u-pb-16{padding-bottom: 16px !important;}
+.u-pb-24{padding-bottom: 24px !important;}
+.u-pb-32{padding-bottom: 32px !important;}
+.u-pb-40{padding-bottom: 40px !important;}
+.u-pb-48{padding-bottom: 48px !important;}
+.u-pl-4{padding-left: 4px !important;}
+.u-pl-8{padding-left: 8px !important;}
+.u-pl-16{padding-left: 16px !important;}
+.u-pl-24{padding-left: 24px !important;}
+.u-pl-32{padding-left: 32px !important;}
+.u-pl-40{padding-left: 40px !important;}
+.u-pl-48{padding-left: 48px !important;}
+.u-pr-4{padding-right: 4px !important;}
+.u-pr-8{padding-right: 8px !important;}
+.u-pr-16{padding-right: 16px !important;}
+.u-pr-24{padding-right: 24px !important;}
+.u-pr-32{padding-right: 32px !important;}
+.u-pr-40{padding-right: 40px !important;}
+.u-pr-48{padding-right: 48px !important;}
+
+/*margin*/
+.u-margin-4{margin: 4px !important;}
+.u-margin-8{margin: 8px !important;}
+.u-margin-16{margin: 16px !important;}
+.u-margin-24{margin: 24px !important;}
+.u-margin-32{margin: 32px !important;}
+.u-margin-40{margin: 40px !important;}
+.u-margin-48{margin: 48px !important;}
+.u-mt-4{margin-top: 4px !important;}
+.u-mt-8{margin-top: 8px !important;}
+.u-mt-16{margin-top: 16px !important;}
+.u-mt-24{margin-top: 24px !important;}
+.u-mt-32{margin-top: 32px !important;}
+.u-mt-40{margin-top: 40px !important;}
+.u-mt-48{margin-top: 48px !important;}
+.u-mb-4{margin-bottom: 4px !important;}
+.u-mb-8{margin-bottom: 8px !important;}
+.u-mb-16{margin-bottom: 16px !important;}
+.u-mb-24{margin-bottom: 24px !important;}
+.u-mb-32{margin-bottom: 32px !important;}
+.u-mb-40{margin-bottom: 40px !important;}
+.u-mb-48{margin-bottom: 48px !important;}
+.u-ml-4{margin-left: 4px !important;}
+.u-ml-8{margin-left: 8px !important;}
+.u-ml-16{margin-left: 16px !important;}
+.u-ml-24{margin-left: 24px !important;}
+.u-ml-32{margin-left: 32px !important;}
+.u-ml-40{margin-left: 40px !important;}
+.u-ml-48{margin-left: 48px !important;}
+.u-mr-4{margin-right: 4px !important;}
+.u-mr-8{margin-right: 8px !important;}
+.u-mr-16{margin-right: 16px !important;}
+.u-mr-24{margin-right: 24px !important;}
+.u-mr-32{margin-right: 32px !important;}
+.u-mr-40{margin-right: 40px !important;}
+.u-mr-48{margin-right: 48px !important;}

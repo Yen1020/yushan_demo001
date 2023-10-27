@@ -1,0 +1,117 @@
+/*
+ * Components
+ * Copyright 2023
+ * Author
+ * Licensed
+ */
+
+ /*-----------------------------*\
+	Content
+\*------------------------------*/
+/**
+ * Content .......... You are reading it
+ * sofa card
+ **/
+
+ /*-----------------------------*\
+    sofa card
+\*------------------------------*/
+.sofa_card{
+    width: 100%;
+    padding-top: 120px;
+}
+.sofa_main{
+    width: 100%;
+}
+.sofa-card-container{
+    width: 100%;
+
+    border: 10px solid #ebebeb;
+    border-radius: 20px;
+    
+}
+.sofa-card-container:before{
+    display: block;
+    content: '';
+    width: 100%;
+    padding-top: 50%;
+}
+.sofa-card{
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+.sofa-main-info{
+    width: 100%;
+}
+@media screen and (max-width:1080px){
+    .sofa_main_info{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 100px;
+    }
+}
+.sofa_main_title{
+    display: inline-block;
+    text-decoration:underline;
+    color: #003e80;
+
+    margin-bottom: 10px;
+}
+.sofa_info{
+    margin-bottom: 10px;
+}
+/* sofa_sub */
+.sofa_sub{
+    width: 100%;
+    text-align: center;
+    margin: 100px 0;
+}
+.sofa_des{
+    width: 100%;
+}
+.sofa_img_gp{
+    width: 100%;
+    height: 25% ;
+    margin: 50px 0;
+}
+.sofa_img{
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* sofa_fabric */
+.sofa_fabric_gp{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.sofa_fabric{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:540px){
+    .sofa_fabric{
+        height: 75%;;
+    }
+}
+/* para-sm-style */
+.para-sm-style{
+    display: inline-block;
+    background-color: #ebebeb;
+    margin-top: 50px;
+}
